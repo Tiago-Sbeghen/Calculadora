@@ -1,0 +1,13 @@
+#base{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#corpo{
+    height: 700px;
+    width: 500px;
+    background-color: black;
+
+    border-radius: 15px;
+}
