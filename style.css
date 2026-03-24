@@ -11,3 +11,26 @@
 
     border-radius: 15px;
 }
+
+#display{
+    background-color: white;
+    width: 450px;
+    height: 150px;
+
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+.bloco{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+
+    text-align: center;
+}
