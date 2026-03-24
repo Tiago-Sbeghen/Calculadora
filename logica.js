@@ -20,6 +20,6 @@ function tratarClique(valor){
     } else {
         valorAtual += valor;
         display.innerText = valorAtual;
-    }
+    };
 
-}
+};

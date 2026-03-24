@@ -6,7 +6,7 @@
 
 #corpo{
     height: 700px;
-    width: 500px;
+    width: 650px;
     background-color: black;
 
     border-radius: 15px;
@@ -17,7 +17,7 @@
 
 #display{
     background-color: white;
-    width: 470px;
+    width: 620px;
     height: 150px;
 
     margin: 15px;
@@ -30,6 +30,16 @@
 
 .bloco{
     height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.blocoMaior{
+    height: 240px;
     width: 100px;
     background-color: white;
     margin: 15px;
