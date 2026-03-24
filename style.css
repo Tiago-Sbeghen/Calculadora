@@ -10,11 +10,14 @@
     background-color: black;
 
     border-radius: 15px;
+
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #display{
     background-color: white;
-    width: 450px;
+    width: 470px;
     height: 150px;
 
     margin: 15px;
