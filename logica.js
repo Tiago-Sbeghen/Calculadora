@@ -13,13 +13,28 @@ botoes.forEach(botao => {
 });
 
 
-function tratarClique(valor){
+function tratarClique(valor) {
 
-    if (valor === "="){
+    if (valor === "=") {
         calcular();
+    } else if (valor === "AC") {
+        limpartudo();
+    } else if (valor === "C") {
+        apagarUltimo();
     } else {
         valorAtual += valor;
         display.innerText = valorAtual;
     };
+
+};
+
+function limpartudo() {
+    valorAtual = "";
+    display.innerText = "";
+};
+
+function apagarUltimo() {
+    valorAtual = valorAtual.slice(0, -1);
+    display.innerText = valorAtual;
 
 };
